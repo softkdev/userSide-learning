@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import svgStar from "./../../public/assets/svg/Start-Plus.svg";
-import svgPlus from "./../../public/assets/svg/plus-square.svg";
+import svgStar from "./../../../public/assets/svg/Start-Plus.svg";
+import svgPlus from "./../../../public/assets/svg/plus-square.svg";
 const Product = () => {
   return (
     <div className="container my-10 flex mx-auto justify-center">

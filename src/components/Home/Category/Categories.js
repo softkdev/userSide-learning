@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import svgComment from "./../../../public/assets/svg/comment-alt.svg";
-import svgBriefcase from "./../../../public/assets/svg/briefcase.svg";
-import svgCofee from "./../../../public/assets/svg/coffee.svg";
-import svgBell from "./../../../public/assets/svg/bell.svg";
+import svgComment from "./../../../../public/assets/svg/comment-alt.svg";
+import svgBriefcase from "./../../../../public/assets/svg/briefcase.svg";
+import svgCofee from "./../../../../public/assets/svg/coffee.svg";
+import svgBell from "./../../../../public/assets/svg/bell.svg";
 
 const Categories = () => {
   return (

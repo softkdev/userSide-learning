@@ -1,11 +1,15 @@
 import React from "react";
 import Baner from "../Layouts/Baner";
 import Posts from "../Shop/Posts/Posts";
+import Head from "next/head";
 
 const Shop = () => {
   return (
     <div>
-      <Baner title="صفحه محصول" />
+      <Head>
+        <title>صفحه فروشگاه</title>
+      </Head>
+      <Baner title="صفحه فروشگاه" />
       <Posts />
       <div className="my-16"></div>
       <div className="container mb-5 mx-auto">

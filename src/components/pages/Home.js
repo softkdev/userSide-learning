@@ -2,11 +2,15 @@ import React from "react";
 import Categories from "../Home/Category/Categories";
 import Posts from "../Home/Posts/Posts";
 import Section from "../Home/Section";
-import Slider from "./../Home/Slider";
+import Slider from "../Home/Slider";
+import Head from "next/head";
 
 const Home = () => {
   return (
     <div className="w-full mb-10">
+      <Head>
+        <title>سایت آموزشی</title>
+      </Head>
       <Slider />
       <Categories />
       <div className="my-28"></div>
