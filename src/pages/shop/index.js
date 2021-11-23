@@ -1,13 +1,8 @@
 import React from "react";
-import Layouts from "../../components/Layouts";
 import Shop from "../../components/pages/Shop";
 
 const index = () => {
-  return (
-    <Layouts>
-      <Shop />
-    </Layouts>
-  );
+  return <Shop />;
 };
 
 export default index;

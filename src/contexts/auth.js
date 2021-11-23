@@ -57,6 +57,7 @@ export const useAuth = () => useContext(AuthContext);
 
 export const ProtectRoute = ({ children }) => {
   const { isAuthenticated, isLoading } = useAuth();
+
   if (
     isLoading ||
     (!isAuthenticated &&
