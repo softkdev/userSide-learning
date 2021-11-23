@@ -7,13 +7,13 @@ const Tabs = () => {
     if (s === step) {
       return "text-orang border-b-2 font-medium border-orange";
     } else {
-      return "text-gray";
+      return "text-gray-500";
     }
   };
   return (
-    <div className="container mx-auto my-10 border border-gray border-solid">
+    <div className="container mx-auto my-10 border border-gray-500 border-solid">
       <div>
-        <nav class="flex border-solid border-gray border flex-col sm:flex-row bg-gray bg-opacity-40 ">
+        <nav class="flex border-solid border-gray-500 border flex-col sm:flex-row bg-gray-500 bg-opacity-40 ">
           <button
             onClick={() => setStep(1)}
             class={`py-4 px-6 block hover:text-opacity-80 focus:outline-none ${handleClass(

@@ -1,14 +1,15 @@
 import React from "react";
 import withPrivateRoute from "../../components/auth/withPrivateRoute";
+import Profile from "../../components/pages/Profile";
 
-const Profile = () => {
-  return <div>This Is The Profile</div>;
+const Index = () => {
+  return <Profile />;
 };
 
-Profile.getInitialProps = async (props) => {
+Index.getInitialProps = async (props) => {
   console.info("##### Congratulations! You are authorized! ######", props);
   return {};
 };
 
-export default Profile;
-// export default withPrivateRoute(Profile);
+export default Index;
+// export default withPrivateRoute(Index);

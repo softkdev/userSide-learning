@@ -11,28 +11,28 @@ const Product = () => {
         <div className="border border-dark border-solid h-16 w-16 mt-3"></div>
         <div className="border border-dark border-solid h-16 w-16 mt-3"></div>
       </div>
-      <div className="mr-3 border border-solid border-gray p-5 w-3/12">
-        <div className="bg-gray w-full h-full"></div>
+      <div className="mr-3 border border-solid border-gray-500 p-5 w-3/12">
+        <div className="bg-gray-500 w-full h-full"></div>
       </div>
       <div className="w-4/12 mr-10">
         <h4 className="text-2xl text-right text-dark mb-3">لورم اپیسوم</h4>
         <Image src={svgStar} />
         <p className="my-5 text-orang text-right text-2xl font-bold">$ 345</p>
-        <p className="text-gray font-light text-xl text-right mb-2">
+        <p className="text-gray-500 font-light text-xl text-right mb-2">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
           استفاده از طراحان گرافیک است
         </p>
-        <p className="text-right text-base font-light text-gray">
+        <p className="text-right text-base font-light text-gray-500">
           <span className="text-dark font-bold">لورم </span>اپیسوم
         </p>
-        <p className="text-right text-base font-light text-gray">
+        <p className="text-right text-base font-light text-gray-500">
           <span className="text-dark font-bold">لورم </span>اپیسوم متن ساختگی
         </p>
         <div className="flex mt-4">
           <button className="bg-orang px-5 py-3 text-2xl text-white font-bold">
             لورم اپیسوم{" "}
           </button>{" "}
-          <button className="bg-gray inline-block p-3 mr-3 pb-2">
+          <button className="bg-gray-500 inline-block p-3 mr-3 pb-2">
             <Image src={svgPlus} />
           </button>
         </div>

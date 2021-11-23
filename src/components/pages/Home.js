@@ -16,8 +16,8 @@ const Home = () => {
       <div className="my-28"></div>
       <Section />
       <div className="w-full flex-row-reverse flex">
-        <div className="w-4/12 bg-gray h-96"></div>
-        <div className="w-8/12 ml-5 bg-gray"></div>
+        <div className="w-4/12 bg-gray-500 h-96"></div>
+        <div className="w-8/12 ml-5 bg-gray-500"></div>
       </div>
       {/* Posts */}
       <Posts />

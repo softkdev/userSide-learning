@@ -4,7 +4,7 @@ import OneRelated from "./OneRelated";
 const Related = () => {
   return (
     <div className="container py-8 mx-auto text-center">
-      <h3 className="inline-block mx-auto my-5 text-dark font-extrabold text-4xl pb-5 border-b border-solid border-gray">
+      <h3 className="inline-block mx-auto my-5 text-dark font-extrabold text-4xl pb-5 border-b border-solid border-gray-500">
         لورم اپیسوم
       </h3>
       <p className="text-xl text-center my-5 font-light">
