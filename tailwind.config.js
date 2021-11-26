@@ -5,6 +5,9 @@ module.exports = {
   purge: ["./src/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      dana: ["dana"],
+    },
     extend: {
       spacing: {
         13: "3.25rem",
@@ -26,6 +29,7 @@ module.exports = {
         indigo: colors.indigo,
         red: colors.rose,
         yellow: colors.amber,
+        cyan: "#048872",
       },
     },
     colors: {},
