@@ -47,3 +47,8 @@ input:-webkit-autofill:active {
   color: inherit !important;
   -webkit-text-fill-color: inherit;
 }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

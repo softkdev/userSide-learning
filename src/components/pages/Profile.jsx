@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import Baner from "../Layouts/Baner";
 import MenuProfile from "../Profiles";
+import { getUserData } from "../../config/Utils";
+import { useSelector } from "react-redux";
 
 export default () => {
+  const { loading, userAddresses, error, profile } = useSelector(
+    (state) => state.profile
+  );
+
+  useEffect(() => {
+    console.log(getUserData()?.wallet?.name);
+  }, [userAddresses, profile]);
+
   return (
     <div>
       <Head>

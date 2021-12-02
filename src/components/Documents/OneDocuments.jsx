@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const OneDocuments = () => {
   return (
@@ -19,9 +20,11 @@ const OneDocuments = () => {
         درصد گذشته حال
       </p>
       <div className="mx-3 my-5 ">
-        <button className="w-full py-3 pb-5 rounded-xl bg-green text-white text-xl">
-          مشاهده مقاله
-        </button>
+        <Link href="/posts/post">
+          <button className="w-full py-3 pb-5 rounded-xl bg-green text-white text-xl">
+            مشاهده مقاله
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -7,12 +7,21 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "dotenv-webpack": "^7.0.3",
+    "formik": "^2.2.9",
     "js-cookie": "^3.0.1",
     "next": "latest",
+    "next-absolute-url": "^1.2.2",
+    "next-redux-wrapper": "^7.0.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
     "react-slick": "^0.28.1",
-    "skeleton": "^0.1.2"
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "skeleton": "^0.1.2",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
